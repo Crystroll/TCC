@@ -1,3 +1,6 @@
+<?php
+include "header.html";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +20,10 @@
         </form>
     </div>
     <a href="registro.html">Cadastrar</a>
+
     
 </body>
 </html>
+<?php
+include "footer.html";
+?>
