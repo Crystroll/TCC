@@ -19,8 +19,16 @@ include "header.html";
             <input type="submit" name="login" value="Entrar" />
         </form>
     </div>
-    <a href="registro.html">Cadastrar</a>
-
+    <a href="registro.html">Cadastrar</a>  
+    <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3 row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword">
+    </div>
     
 </body>
 </html>
