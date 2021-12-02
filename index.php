@@ -25,13 +25,13 @@ include "header.html";
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://dummyimage.com/855x365/55595c/fff" alt="First slide">
+                        <img class="d-block w-100" src="./img/slide1.png" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="https://dummyimage.com/855x365/a30ca3/fff" alt="Second slide">
+                        <img class="d-block w-100" src="./img/slide2.png" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="https://dummyimage.com/855x365/1443ff/fff" alt="Third slide">
+                        <img class="d-block w-100" src="./img/slide3.png" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -42,25 +42,6 @@ include "header.html";
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
-        </div>
-        <div class="col-12 col-md-3">
-            <div class="card">
-                <div class="card-header bg-success text-white text-uppercase">
-                    <i class="fa fa-heart"></i> Top product
-                </div>
-                <img class="img-fluid border-0" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title text-center"><a href="product.html" title="View Product">Product title</a></h4>
-                    <div class="row">
-                        <div class="col">
-                            <p class="btn btn-danger btn-block">99.00 $</p>
-                        </div>
-                        <div class="col">
-                            <a href="product.html" class="btn btn-success btn-block">View</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -78,9 +59,9 @@ include "header.html";
                     <div class="row">
                         <div class="col-sm">
                             <div class="card">
-                                <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
+                                <img class="card-img-top" src="./img/pincel.png" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="product.html" title="View Product">Product title</a></h4>
+                                    <h4 class="card-title"><a href="product.php" title="View Product">Product title</a></h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <div class="row">
                                         <div class="col">
@@ -95,9 +76,9 @@ include "header.html";
                         </div>
                         <div class="col-sm">
                             <div class="card">
-                                <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
+                                <img class="card-img-top" src="./img/pedreiro.png" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="product.html" title="View Product">Product title</a></h4>
+                                    <h4 class="card-title"><a href="product.php" title="View Product">Product title</a></h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <div class="row">
                                         <div class="col">
@@ -112,9 +93,9 @@ include "header.html";
                         </div>
                         <div class="col-sm">
                             <div class="card">
-                                <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
+                                <img class="card-img-top" src="./img/grifo.png" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="product.html" title="View Product">Product title</a></h4>
+                                    <h4 class="card-title"><a href="product.php" title="View Product">Product title</a></h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <div class="row">
                                         <div class="col">
@@ -129,9 +110,9 @@ include "header.html";
                         </div>
                         <div class="col-sm">
                             <div class="card">
-                                <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
+                                <img class="card-img-top" src="./img/pedreiro.png" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="product.html" title="View Product">Product title</a></h4>
+                                    <h4 class="card-title"><a href="product.php" title="View Product">Product title</a></h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <div class="row">
                                         <div class="col">
