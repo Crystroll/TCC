@@ -53,7 +53,7 @@
                     {
                     ?>
                       <div>
-                    <a class="btn btn-primary mr-2" href="registro.php" role="button" style="background-color: lightseagreen; border-color: rgb(165, 205, 230);">Registre-se</a>
+                    <a class="btn btn-primary mr-2" href="registro.php" role="button" style="background-color: lightseagreen; border-color: rgb(165, 205, 230);">Cadastre-se</a>
                     <a class="btn btn-outline-primary mr-2" href="login.php" role="button" style="border-color: rgb(165, 205, 230); color:rgb(165, 205, 230);">Faça login</a>
                 </div>
                     <?php

@@ -19,7 +19,7 @@
 <section class="jumbotron text-center">
     <div class="container">
         <h1 class="jumbotron-heading">Faça login</h1>
-        <p class="lead text-muted mb-0">Entre com sua conta. Caso não esteja cadastrado, <a href="registro.html">clique aqui</a> </p>
+        <p class="lead text-muted mb-0">Entre com sua conta. Caso não esteja cadastrado, <a href="registro.php">clique aqui</a> </p>
     </div>
     <div class="container">
         <div class="row justify-content-center">
