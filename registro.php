@@ -24,6 +24,7 @@ include "header.php";
     </form>
 </body>
 </html>
+
 <?php
-include "footer.php";
+include "footer.html";
 ?>
