@@ -36,11 +36,11 @@ include "header.php";
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">Anterior</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">Proximo</span>
                 </a>
             </div>
         </div>
@@ -53,7 +53,7 @@ include "header.php";
         <div class="col-sm">
             <div class="card">
                 <div class="card-header bg-primary text-white text-uppercase">
-                    <i class="fa fa-star"></i> Last products
+                    <i class="fa fa-star"></i> Últimos Produtos
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -61,14 +61,14 @@ include "header.php";
                             <div class="card">
                                 <img class="card-img-top" src="./img/pincel.png" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="product.php" title="View Product">Product title</a></h4>
+                                    <h4 class="card-title"><a href="product.php" title="View Product">Nome dos Produto</a></h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <div class="row">
                                         <div class="col">
-                                            <p class="btn btn-danger btn-block">99.00 $</p>
+                                            <p class="btn btn-danger btn-block">R$ 99.00</p>
                                         </div>
                                         <div class="col">
-                                            <a href="cart.html" class="btn btn-success btn-block">Add to cart</a>
+                                            <a href="cart.html" class="btn btn-success btn-block">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
                                 </div>
@@ -78,14 +78,14 @@ include "header.php";
                             <div class="card">
                                 <img class="card-img-top" src="./img/pedreiro.png" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="product.php" title="View Product">Product title</a></h4>
+                                    <h4 class="card-title"><a href="product.php" title="View Product">Nome do Produto</a></h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <div class="row">
                                         <div class="col">
-                                            <p class="btn btn-danger btn-block">99.00 $</p>
+                                            <p class="btn btn-danger btn-block">R$ 99.00</p>
                                         </div>
                                         <div class="col">
-                                            <a href="cart.html" class="btn btn-success btn-block">Add to cart</a>
+                                            <a href="cart.html" class="btn btn-success btn-block">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
                                 </div>
@@ -95,14 +95,14 @@ include "header.php";
                             <div class="card">
                                 <img class="card-img-top" src="./img/grifo.png" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="product.php" title="View Product">Product title</a></h4>
+                                    <h4 class="card-title"><a href="product.php" title="View Product">Nome dos Produto</a></h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <div class="row">
                                         <div class="col">
-                                            <p class="btn btn-danger btn-block">99.00 $</p>
+                                            <p class="btn btn-danger btn-block">R$ 99.00</p>
                                         </div>
                                         <div class="col">
-                                            <a href="cart.html" class="btn btn-success btn-block">Add to cart</a>
+                                            <a href="cart.html" class="btn btn-success btn-block">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
                                 </div>
@@ -112,14 +112,14 @@ include "header.php";
                             <div class="card">
                                 <img class="card-img-top" src="./img/pedreiro.png" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="product.php" title="View Product">Product title</a></h4>
+                                    <h4 class="card-title"><a href="product.php" title="View Product">Nome dos Produto</a></h4>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <div class="row">
                                         <div class="col">
-                                            <p class="btn btn-danger btn-block">99.00 $</p>
+                                            <p class="btn btn-danger btn-block">R$ 99.00</p>
                                         </div>
                                         <div class="col">
-                                            <a href="cart.html" class="btn btn-success btn-block">Add to cart</a>
+                                            <a href="cart.html" class="btn btn-success btn-block">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
                                 </div>
