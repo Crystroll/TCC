@@ -1,18 +1,29 @@
 <?php 
 	// session_start inicia a sessão
 	session_start();
+
+
+
 	// as variáveis login e senha recebem os dados digitados na página anterior
 
 	$login = $_POST['email'];
 	$code = md5($_POST['password']);
 
-	// as próximas 3 linhas são responsáveis em se conectar com o bando de dados.
+
+	$query_id="select Id from usuario where email = '$login' and senha = '$code'";
+	$result_trabalho=mysqli_query($conn,$query_id);
+	while($row = mysqli_fetch_assoc($result_trabalho)){
+		$_SESSION['id_usuario'] = $row['Id'];
+    }
+	
+	
+	// as próximas 3 linhas são responsáveis em se conectar com o banco de dados.
 
 
 	$servidor = "localhost";
 	$usuario = "root";
 	$senhaDb = "";
-	$dbname = "ajudai";
+	$dbname = "site-ajudai";
 	
 	//criar conexao
 	$conn = mysqli_connect ($servidor, $usuario, $senhaDb, $dbname);
@@ -20,7 +31,7 @@
 	// A variavel $result pega as varias $login e $senha, faz uma 
 	//pesquisa na tabela de usuarios
 
-	$sql="select * from cadastro where email = '$login' and senha = '$code'";
+	$sql="select * from usuario where email = '$login' and senha = '$code'";
 
 	$result=mysqli_query($conn,$sql);
 	  
@@ -33,7 +44,7 @@
 	}else{
 		unset ($_SESSION['login']);
 		unset ($_SESSION['senha']);
-		header('location:login.html');
+		header('location:login.php');
 	}
 	  
 

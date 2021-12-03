@@ -3,10 +3,10 @@
 	//session_start();
 	// as variáveis login e senha recebem os dados digitados na página anterior
 
-	$login = $_POST['nome'];
-	$password = md5($_POST['senha']);
-    $phone = $_POST['telefone'];
-	$email = $_POST['email'];
+	$servico = $_POST['nome'];
+	$descricao =$_POST['senha'];
+    $tipo_servico = $_POST['telefone'];
+	$Id_usuario = $_POST['email'];
 
 	// as próximas 3 linhas são responsáveis em se conectar com o bando de dados.
 
@@ -21,7 +21,7 @@
 	 
 
 
-	$sql="insert into usuario(nome, senha, telefone, email) values('$login', '$password', '$phone', '$email')";
+	$sql="insert into trabalho(nome, descricao, tipo_servico, Id_usuario) values('$login', '$password', '$phone', '$email')";
 
 	$result=mysqli_query($conn,$sql);
 	  

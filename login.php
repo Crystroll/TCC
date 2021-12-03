@@ -1,7 +1,15 @@
+<?php 
+ include "header.php";
+
+    if((isset ($_SESSION['login']) == true) and (isset ($_SESSION['senha']) == true))
+    {
+      header('location:index.php');
+      }
+      //CHECAR SE O USUARIO JA TEM UMA SESSÃO EM ANDAMENTO
+?>
 <!DOCTYPE html>
 <html>
 <head>
-    <?php include "header.html" ?>
     <meta charset='utf-8'>
     <title>Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>

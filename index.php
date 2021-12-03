@@ -1,17 +1,17 @@
 <?php
-include "header.html";
+include "header.php";
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Ajudai Homepage</title>
+<title>Início - Ajudai</title>
 </head>
 
 <body>
 <section class="jumbotron text-center">
     <div class="container">
-        <h1 class="jumbotron-heading">E-COMMERCE BOOTSTRAP THEME</h1>
-        <p class="lead text-muted mb-0">Simple theme for e-commerce buid with Bootstrap 4.0.0. Pages available : home, category, product, cart & contact</p>
+        <h1 class="jumbotron-heading">Bem-vindo ao Ajuda Aí!</h1>
+        <p class="lead text-muted mb-0">O Ajudaí! é a ferramenta perfeita para que você encontre a solução para trabalhos do dia-a-dia que precisam de uma mãozinha qualificada!</p>
     </div>
 </section>
 <div class="container">
