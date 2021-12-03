@@ -10,7 +10,7 @@ include "header.php";
 <body>
 <section class="jumbotron text-center">
     <div class="container">
-        <h1 class="jumbotron-heading">E-COMMERCE CATEGORY</h1>
+        <h1 class="jumbotron-heading">CATEGORIAS</h1>
         <p class="lead text-muted mb-0">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte...</p>
     </div>
 </section>
@@ -19,9 +19,9 @@ include "header.php";
         <div class="col">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="category.html">Category</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Sub-category</li>
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="category.html">Categoria</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Sub-Categoria</li>
                 </ol>
             </nav>
         </div>
@@ -31,7 +31,7 @@ include "header.php";
     <div class="row">
         <div class="col-12 col-sm-3">
             <div class="card bg-light mb-3">
-                <div class="card-header bg-primary text-white text-uppercase"><i class="fa fa-list"></i> Categories</div>
+                <div class="card-header bg-primary text-white text-uppercase"><i class="fa fa-list"></i> Categorias</div>
                 <ul class="list-group category_block">
                     <li class="list-group-item"><a href="category.html">Cras justo odio</a></li>
                     <li class="list-group-item"><a href="category.html">Dapibus ac facilisis in</a></li>
@@ -41,12 +41,12 @@ include "header.php";
                 </ul>
             </div>
             <div class="card bg-light mb-3">
-                <div class="card-header bg-success text-white text-uppercase">Last product</div>
+                <div class="card-header bg-success text-white text-uppercase">Último Produto</div>
                 <div class="card-body">
                     <img class="img-fluid" src="https://dummyimage.com/600x400/55595c/fff" />
-                    <h5 class="card-title">Product title</h5>
+                    <h5 class="card-title">Nome do Produto</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p class="bloc_left_price">99.00 $</p>
+                    <p class="bloc_left_price">R$ 99.00</p>
                 </div>
             </div>
         </div>

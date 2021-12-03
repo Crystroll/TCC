@@ -4,14 +4,14 @@ include "header.php";
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Free Bootstrap 4 Ecommerce Template</title>
+    <title>Fale Conosco</title>
 </head>
 
 <body>
 <section class="jumbotron text-center">
     <div class="container">
-        <h1 class="jumbotron-heading">E-COMMERCE CONTACT</h1>
-        <p class="lead text-muted mb-0">Contact Page build with Bootstrap 4 !</p>
+        <h1 class="jumbotron-heading">FALE CONOSCO</h1>
+        <p class="lead text-muted mb-0">Diga nos qual é a sua dúvida</p>
     </div>
 </section>
 <div class="container">
@@ -19,8 +19,8 @@ include "header.php";
         <div class="col">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contato</li>
                 </ol>
             </nav>
         </div>
@@ -30,36 +30,36 @@ include "header.php";
     <div class="row">
         <div class="col">
             <div class="card">
-                <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Contact us.
+                <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Fale Conosco.
                 </div>
                 <div class="card-body">
                     <form>
                         <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
+                            <label for="name">Nome</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Coloque seu nome" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <label for="email">Endereço de Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Coloque seu Email" required>
+                            <small id="emailHelp" class="form-text text-muted">Nunca divulgaremos seu Email com outros.</small>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="6" required></textarea>
+                            <label for="message">Mensagem</label>
+                            <textarea class="form-control" id="message" rows="6" placeholder="Digite sua mensagem aqui" required></textarea>
                         </div>
                         <div class="mx-auto">
-                        <button type="submit" class="btn btn-primary text-right">Submit</button></div>
+                        <button type="submit" class="btn btn-primary text-right">Enviar</button></div>
                     </form>
                 </div>
             </div>
         </div>
         <div class="col-12 col-sm-4">
             <div class="card bg-light mb-3">
-                <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i> Address</div>
+                <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i>Endereço</div>
                 <div class="card-body">
-                    <p>3 rue des Champs Elysées</p>
-                    <p>75008 PARIS</p>
-                    <p>France</p>
+                    <p>Rua n° Street</p>
+                    <p>75008  BRASIL</p>
+                    <p>São Paulo</p>
                     <p>Email : email@example.com</p>
                     <p>Tel. +33 12 56 11 51 84</p>
 
