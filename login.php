@@ -35,16 +35,16 @@
             <label for="email" class="row justify-content-center">Email</label>
             <input type="text" name="email" />
             <br><br>
-            <label for="password">Senha</label>
-            <input type="password" name="password" />
+            <label for="password" class="row justify-content-center">Senha</label>
+            <input type="password" name="password"/>
 
             
         <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3" name="login" value="Entrar">Entrar</button>
+        <button type="submit" class="btn btn-primary mt-3" name="login" value="Entrar">Entrar</button>
         </div>
         </form>
     </div>
-    <a href="registro.php">Cadastre-se</a>  
+
     <!--<div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -55,6 +55,7 @@
       <input type="password" class="form-control" id="inputPassword">
     </div>
     -->
+
+
 </body>
 </html>
-<?php include "footer.html" ?>
