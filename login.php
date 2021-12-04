@@ -1,6 +1,5 @@
 <?php 
  include "header.php";
-
     if((isset ($_SESSION['login']) == true) and (isset ($_SESSION['senha']) == true))
     {
       header('location:index.php');
@@ -21,40 +20,21 @@
         <h1 class="jumbotron-heading">Faça login</h1>
         <p class="lead text-muted mb-0">Entre com sua conta. Caso não esteja cadastrado, <a href="registro.php">clique aqui</a> </p>
     </div>
-    <!--<div class="container">
-        <div class="row justify-content-center">
-            <div class="col-3">
-                <label for="email" class="form-label">Email:</label>
-                
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-            </div>
-        </div>
-    </div>-->
-    <div>
-            <form action="operador_login.php" method="post" name="login-form">
+    </section>
+
+    <div class="text-center">
+        <form action="operador_login.php" method="post" name="login-form">
             <label for="email" class="row justify-content-center">Email</label>
-            <input type="text" name="email" />
-            <br><br>
+            <input type="text" name="email" class='mb-2'/>
             <label for="password" class="row justify-content-center">Senha</label>
             <input type="password" name="password"/>
-
-            
         <div class="col-auto">
-        <button type="submit" class="btn btn-primary mt-3" name="login" value="Entrar">Entrar</button>
+            <button type="submit" class="btn btn-primary mt-3" name="login" value="Entrar">Entrar</button>
         </div>
         </form>
     </div>
 
-    <!--<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-</div>
-<div class="mb-3 row">
-    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword">
-    </div>
-    -->
+
 
 
 </body>

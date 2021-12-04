@@ -1,9 +1,6 @@
 <?php 
 	// session_start inicia a sessão
 	session_start();
-
-
-
 	// as variáveis login e senha recebem os dados digitados na página anterior
 
 	$login = $_POST['email'];
@@ -18,8 +15,6 @@
 	
 	
 	// as próximas 3 linhas são responsáveis em se conectar com o banco de dados.
-
-
 	$servidor = "localhost";
 	$usuario = "root";
 	$senhaDb = "";

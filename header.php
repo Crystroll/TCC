@@ -14,7 +14,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark " style="background-color: rgb(166, 173, 173);">
-        <div class="container">
+        <div class="container ">
             <a class="navbar-brand" href="index.php">
                 <img src="img/ajuda-ai.png" alt="Logo Ajudai" height="35px">
             </a>
@@ -34,31 +34,29 @@
                         <a class="nav-link" href="contact.php">Entre em contato</a>
                     </li>
                 </ul>
-    
+                <!--
                 <form class="form-inline my-2 my-lg-0">
                     <div class="input-group input-group-sm">
                         <input type="text" class="form-control" placeholder="Procurar...">
                         <div class="input-group-append">
                             <button type="button" class="btn btn-secondary btn-number mr-4">
                                 <i class="fa fa-search"></i>
-                            </button>
-                            
-                            
+                            </button> 
                         </div>
                     </div>
-                </form>
+                </form>-->
+
                 <?php
                     session_start();
                     if((isset ($_SESSION['login']) == false) and (isset ($_SESSION['senha']) == false))
                     {
                     ?>
-                      <div>
+                <div>
                     <a class="btn btn-primary mr-2" href="registro.php" role="button" style="background-color: lightseagreen; border-color: rgb(165, 205, 230);">Cadastre-se</a>
                     <a class="btn btn-outline-primary mr-2" href="login.php" role="button" style="border-color: rgb(165, 205, 230); color:rgb(165, 205, 230);">Faça login</a>
                 </div>
                     <?php
                     }
-                    //CHECAR SE O USUARIO JA TEM UMA SESSÃO EM ANDAMENTO
                     else{
                         echo "<div class='mr-2'>" . $_SESSION['login'] . "</div>";
                         echo "<a class='btn btn-primary mr-2' href='desconectar.php' role='button' style='background-color: lightseagreen; border-color: rgb(165, 205, 230);'>Desconectar</a>";

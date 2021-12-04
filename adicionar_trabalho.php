@@ -8,19 +8,16 @@
 
 </head>
 <body>
-    <form action="operador_registro.php" method="post" name="form-cadastro">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome"/>
-        <label for="senha">Senha</label>
-        <input type="password" name="senha" />
-        <label for="telefone">Telefone</label>
-        <input type="text" name="telefone"/>
-        <label for="email">Email</label>
-        <input type="email" name="email"/>
-        <input type="submit" value="Cadastrar" name="Cadastro">
+    <form action="operador_adicionar_trabalho.php" method="post" name="form-cadastro">
+        <label for="nome_trabalho">Nome do trabalho</label>
+        <input type="text" name="nome_trabalho"/>
+        <label for="descricao_trabalho">Descrição</label>
+        <input type="text" name="descricao_trabalho" />
+        <label for="tipo_trabalho">Tipo de serviço</label>
+        <input type="text" name="tipo_trabalho"/>
+        <input type="submit" value="inserir" name="inserir">
 
-
-        <input type="hidden" name="Id_usuario" value="<?php	$_SESSION['id_usuario']  ?>">
+        <input type="hidden" name="Id_usuario" value="<?php	$_SESSION['id_usuario']?>">
 
 
     </form>
