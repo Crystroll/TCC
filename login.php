@@ -21,7 +21,7 @@
         <h1 class="jumbotron-heading">Faça login</h1>
         <p class="lead text-muted mb-0">Entre com sua conta. Caso não esteja cadastrado, <a href="registro.php">clique aqui</a> </p>
     </div>
-    <div class="container">
+    <!--<div class="container">
         <div class="row justify-content-center">
             <div class="col-3">
                 <label for="email" class="form-label">Email:</label>
@@ -29,12 +29,12 @@
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
             </div>
         </div>
-        </div>
+    </div>-->
     <div>
             <form action="operador_login.php" method="post" name="login-form">
-            <label for="email" >Email</label>
+            <label for="email" class="row justify-content-center">Email</label>
             <input type="text" name="email" />
-
+            <br><br>
             <label for="password">Senha</label>
             <input type="password" name="password" />
 
@@ -44,9 +44,8 @@
         </div>
         </form>
     </div>
-<<<<<<< Updated upstream
-    <a href="registro.html">Cadastrar</a>  
-    <div class="mb-3">
+    <a href="registro.php">Cadastre-se</a>  
+    <!--<div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 </div>
@@ -55,12 +54,7 @@
     <div class="col-sm-10">
       <input type="password" class="form-control" id="inputPassword">
     </div>
-    
-=======
- 
-
-</section>
->>>>>>> Stashed changes
+    -->
 </body>
 </html>
 <?php include "footer.html" ?>
