@@ -4,7 +4,7 @@ include "header.php";
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>aoba</title>
+    <title>Trabalhos Ajudaí!</title>
 </head>
 
 <body>

@@ -12,14 +12,14 @@ include "header.php";
 </head>
 <body>
     <form action="operador_registro.php" method="post" name="form-cadastro">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome"/>
-        <label for="senha">Senha</label>
-        <input type="password" name="senha" />
+        <label for="nome" >Nome*</label>
+        <input type="text" name="nome" required/>
+        <label for="senha">Senha*</label>
+        <input type="password" name="senha" required/>
         <label for="telefone">Telefone</label>
         <input type="text" name="telefone"/>
-        <label for="email">Email</label>
-        <input type="email" name="email"/>
+        <label for="email">Email*</label>
+        <input type="email" name="email"required/>
         <input type="submit" value="Cadastrar" name="Cadastro">
     </form>
 </body>

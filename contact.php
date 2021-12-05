@@ -33,7 +33,7 @@ include "header.php";
                 <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Fale Conosco.
                 </div>
                 <div class="card-body">
-                    <form>
+                    <form action="" method="post">
                         <div class="form-group">
                             <label for="name">Nome</label>
                             <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Coloque seu nome" required>
@@ -55,13 +55,13 @@ include "header.php";
         </div>
         <div class="col-12 col-sm-4">
             <div class="card bg-light mb-3">
-                <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i>Endereço</div>
+                <div class="card-header bg-success text-white text-uppercase pr-2"><i class="fa fa-info mr-2"></i>Informações</div>
                 <div class="card-body">
-                    <p>Rua n° Street</p>
-                    <p>75008  BRASIL</p>
+                    <p>Porto Ferreira</p>
                     <p>São Paulo</p>
-                    <p>Email : email@example.com</p>
-                    <p>Tel. +33 12 56 11 51 84</p>
+                    <p>ETEC Professor Jadyr Salles</p>
+                    <p>Email: ajudaai.project@gmail.com</p>
+
 
                 </div>
 
