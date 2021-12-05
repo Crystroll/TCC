@@ -1,5 +1,13 @@
 <?php
 include "header.php";
+
+$servidor = "localhost";
+$usuario = "root";
+$senhaDb = "";
+$dbname = "site-ajudai";
+
+//criar conexao
+$conn = mysqli_connect ($servidor, $usuario, $senhaDb, $dbname);
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -57,6 +65,38 @@ include "header.php";
                 </div>
                 <div class="card-body">
                     <div class="row">
+                        
+                    
+                    <?php
+$result = mysqli_query($conn,"SELECT * FROM trabalho");
+while($row = mysqli_fetch_array($result))
+{
+?>
+    <!--Cartão do trabalho-->
+    <div class="col-12 col-md-6 col-lg-4 py-2">
+                    <div class="card">
+                        <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title"><a href="product.php" title="View Product"><?php echo $row['nome']; ?></a></h4>
+                            <p class="card-text"><?php echo $row['descricao'];?></p>
+                            <div class="row">
+                                <div class="col">
+                                </div>
+                                <div class="col">
+                                    <a href="product.php" class="btn btn-success btn-block">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!-- FIM cartão do trabalho-->
+    <?php
+}
+mysqli_close($conn);
+?>
+                    
+                    
+                        
                         <div class="col-sm">
                             <div class="card">
                                 <img class="card-img-top" src="./img/pincel.png" alt="Card image cap">

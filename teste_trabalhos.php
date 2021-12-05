@@ -41,7 +41,7 @@ $conn = mysqli_connect ($servidor, $usuario, $senhaDb, $dbname);
 
 
 
-<div class="container">
+<div class="container" height="70PX">
     <div class="row">
         <!--Coluna CATEGORIAS e ADICIONE SEU TRABALHO-->
         <div class="col-12 col-sm-3">
@@ -69,9 +69,9 @@ while($row = mysqli_fetch_array($result))
 {
 ?>
     <!--Cartão do trabalho-->
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-4 py-2">
                     <div class="card">
-                        <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo $row['imagem']?>" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title"><a href="product.php" title="View Product"><?php echo $row['nome']; ?></a></h4>
                             <p class="card-text"><?php echo $row['descricao'];?></p>
@@ -90,10 +90,7 @@ while($row = mysqli_fetch_array($result))
 }
 mysqli_close($conn);
 ?>
- 
-
-
- <div class="col-12">
+                <div class="col-12">
                     <nav aria-label="...">
                         <ul class="pagination">
                             <li class="page-item disabled">
@@ -110,6 +107,7 @@ mysqli_close($conn);
                         </ul>
                     </nav>
                 </div>
+
             </div>
         </div>
 

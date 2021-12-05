@@ -7,7 +7,7 @@
 	$descricao =$_POST['descricao_trabalho'];
     $tipo_servico = $_POST['tipo_trabalho'];
 	$Id_servico = $_POST['Id'];
-	$id_usuario = $_GET['id_usuario'];
+	$id_usuario = $_POST['id_usuario'];
 	// as próximas 3 linhas são responsáveis em se conectar com o banco de dados.
 	$servidor = "localhost";
 	$usuario = "root";
@@ -20,9 +20,15 @@
 
 
 	$sql="insert into trabalho(nome, descricao, tipo_servico, Id_usuario) values('$servico', '$descricao', '$tipo_servico','$Id_servico')";
-
 	$result=mysqli_query($conn,$sql);
-	  
+
+
+
+	/* 
+	$sql2="insert into tipo-servico(nome, descricao, area, caminho_imagem) values('$tipo_servico', '$tipo_servico', '$tipo_servico', '$tipo_servico')";
+	$result2=mysqli_query($conn,$sql2);
+	*/
+
 
 	mysqli_close($conn);
 

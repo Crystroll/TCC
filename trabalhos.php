@@ -1,6 +1,15 @@
 <?php
 include "header.php";
+
+$servidor = "localhost";
+$usuario = "root";
+$senhaDb = "";
+$dbname = "site-ajudai";
+
+//criar conexao
+$conn = mysqli_connect ($servidor, $usuario, $senhaDb, $dbname);
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -42,7 +51,7 @@ include "header.php";
                     <li class="list-group-item"><a href="trabalhos.php">Pedreiro</a></li>
                     <li class="list-group-item"><a href="trabalhos.php">Encanador</a></li>
                     <li class="list-group-item"><a href="trabalhos.php">Eletricista</a></li>
-                    <li class="list-group-item"><a href="trabalhos.php">Design de interiores</a></li>
+                    <li class="list-group-item"><a href="trabalhos.php">Designer de interiores</a></li>
                 </ul>
             </div>
             <div class="card bg-light mb-3">
@@ -54,110 +63,35 @@ include "header.php";
         <div class="col">
         <div class="row">
 
+<?php
+$result = mysqli_query($conn,"SELECT * FROM trabalho");
+while($row = mysqli_fetch_array($result))
+{
+?>
     <!--Cartão do trabalho-->
-                <!--<div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
+    <div class="col-12 col-md-6 col-lg-4 py-2">
+                    <div id="cartao" class="card" style="height: 400px">
                         <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="product.php" title="View Product">Product title</a></h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h4 class="card-title"><a href="product.php" title="View Product"><?php echo $row['nome']; ?></a></h4>
+                            <p class="card-text"><?php echo $row['descricao'];?></p>
                             <div class="row">
                                 <div class="col">
-                                </div>
-                                <div class="col">
-                                    <a href="product.php" class="btn btn-success btn-block">Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-
-
-                
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="View Product">Product title</a></h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="row">
-                                <div class="col">
-                                </div>
-                                <div class="col">
-                                    <a href="#" class="btn btn-success btn-block">Add to cart</a>
+                                    <a href="product.php" class="btn btn-success btn-block float-end">Ver mais</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="View Product">Product title</a></h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="row">
-                                <div class="col">
-                                </div>
-                                <div class="col">
-                                    <a href="#" class="btn btn-success btn-block">Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="View Product">Product title</a></h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="row">
-                                <div class="col">
-                                </div>
-                                <div class="col">
-                                    <a href="#" class="btn btn-success btn-block">Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="View Product">Product title</a></h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="row">
-                                <div class="col">
-                                </div>
-                                <div class="col">
-                                    <a href="#" class="btn btn-success btn-block">Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title"><a href="product.html" title="View Product">Product title</a></h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="row">
-                                <div class="col">
-                                </div>
-                                <div class="col">
-                                    <a href="#" class="btn btn-success btn-block">Add to cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- FIM cartão do trabalho-->
+<?php
+}
+mysqli_close($conn);
+?>
                 <div class="col-12">
                     <nav aria-label="...">
                         <ul class="pagination">
-                            <li class="page-item disabled">
+                            <li class="page-item">
                                 <a class="page-link" href="#" tabindex="-1">Previous</a>
                             </li>
                             <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -171,11 +105,14 @@ include "header.php";
                         </ul>
                     </nav>
                 </div>
+
             </div>
         </div>
 
     </div>
 </div>
+
+
 
 <!-- Footer -->
 <?php
