@@ -14,11 +14,15 @@
         <label for="descricao_trabalho">Descrição</label>
         <input type="text" name="descricao_trabalho" />
         <label for="tipo_trabalho">Tipo de serviço</label>
-        <input type="text" name="tipo_trabalho"/>
-        <input type="submit" value="inserir" name="inserir">
+            <select id="tipo_trabalho" name="tipo_trabalho">
+                <option value="1" >Pedreiro</option>
+                <option value="2">Encanador</option>
+                <option value="3">Eletricista</option>
+                <option value="4">Design de interiores</option>
+            </select>
 
         <input type="hidden" name="Id_usuario" value="<?php	$_SESSION['id_usuario']?>">
-
+        <input type="submit" value="inserir" name="inserir">
 
     </form>
 </body>

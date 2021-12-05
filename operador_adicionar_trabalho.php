@@ -26,7 +26,7 @@
 
 	mysqli_close($conn);
 
-    header('location:index.php');
+    header('location:trabalhos.php');
 	  //ESTA PÁGINA PODE SER CONSIDERADA COMO UM OPERADOR QUE FAZ TROCA DE INFORMAÇÕES COM O BANCO DE DADOS, PARA PODER INICIAR UMA SESSÃO
 /*
 

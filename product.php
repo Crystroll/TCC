@@ -33,10 +33,7 @@ include "header.php";
         <div class="col-12 col-lg-6">
             <div class="card bg-light mb-3">
                 <div class="card-body">
-                    <a href="" data-toggle="modal" data-target="#productModal">
-                        <img class="img-fluid" src="https://dummyimage.com/800x800/55595c/fff" />
-                        <p class="text-center">Zoom</p>
-                    </a>
+                        <img class="img-fluid" src="https://dummyimage.com/800x800/362c36/cdced4&text=Sem+imagem+dispon%C3%ADvel"/>
                 </div>
             </div>
         </div>
@@ -45,8 +42,6 @@ include "header.php";
         <div class="col-12 col-lg-6 add_to_cart_block">
             <div class="card bg-light mb-3">
                 <div class="card-body">
-                    <p class="price">R$ 99.00</p>
-                    <p class="price_discounted">R$ 149.90</p>
                     <form method="get" action="cart.html">
                         <div class="form-group">
                             <label for="colors">Planos</label>
@@ -160,10 +155,6 @@ include "header.php";
 </div>
 
 
-<!-- Footer -->
-<?php
-include "footer.html";
-?>
 
 
 <!-- Modal image -->
@@ -213,3 +204,7 @@ include "footer.html";
 </script>
 </body>
 </html>
+<!-- Footer -->
+<?php
+include "footer.html";
+?>
