@@ -12,7 +12,7 @@
         <label for="nome_trabalho">Nome do trabalho</label>
         <input type="text" name="nome_trabalho"/>
         <label for="descricao_trabalho">Descrição</label>
-        <input type="text" name="descricao_trabalho" />
+        <input type="text" name="descricao_trabalho"/>
         <label for="tipo_trabalho">Tipo de serviço</label>
             <select id="tipo_trabalho" name="tipo_trabalho">
                 <option value="1" >Pedreiro</option>
