@@ -68,7 +68,6 @@ $result = mysqli_query($conn,"SELECT * FROM trabalho");
 while($row = mysqli_fetch_array($result))
 {
 ?>
-
     <!--Cartão do trabalho-->
     <div class="col-12 col-md-6 col-lg-4">
                     <div class="card">
@@ -86,10 +85,7 @@ while($row = mysqli_fetch_array($result))
                         </div>
                     </div>
                 </div>
-
-
-
-
+    <!-- FIM cartão do trabalho-->
 <?php
 }
 mysqli_close($conn);

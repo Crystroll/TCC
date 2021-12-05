@@ -52,10 +52,10 @@ include "header.php";
 
     <!--Coluna dos trabalhos-->
         <div class="col">
+        <div class="row">
 
-<!--Cartão do trabalho-->
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
+    <!--Cartão do trabalho-->
+                <!--<div class="col-12 col-md-6 col-lg-4">
                     <div class="card">
                         <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
                         <div class="card-body">
@@ -70,7 +70,7 @@ include "header.php";
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
 
 
                 
