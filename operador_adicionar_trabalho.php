@@ -3,6 +3,9 @@
 	session_start();
 	// as variáveis login e senha recebem os dados digitados na página anterior
 
+	$timestamp = new DateTime();
+	$mdTimestamp = md5($timestamp -> format('Y-m-d H:i:s'));
+	
 	$servico = $_POST['nome_trabalho'];
 	$descricao =$_POST['descricao_trabalho'];
     $tipo_servico = $_POST['tipo_trabalho'];
@@ -13,13 +16,20 @@
 	$usuario = "root";
 	$senhaDb = "";
 	$dbname = "site-ajudai";
-	
+	// tratamento imagem
+	$target_dir = "../TCC/images_products/";
+	$path_ext = pathinfo($_FILES["imagem"]["name"], PATHINFO_EXTENSION);
+	$target_file = $target_dir . "$mdTimestamp." . $path_ext;
+
+
+	move_uploaded_file($_FILES["imagem"]["tmp_name"], $target_file);
+
 	//criar conexao
 	$conn = mysqli_connect ($servidor, $usuario, $senhaDb, $dbname);
 	 
 
 
-	$sql="insert into trabalho(nome, descricao, tipo_servico, Id_usuario) values('$servico', '$descricao', '$tipo_servico','$Id_servico')";
+	$sql="insert into trabalho(nome, descricao, tipo_servico, Id_usuario, thumb) values('$servico', '$descricao', '$tipo_servico','$Id_servico', '$target_file')";
 	$result=mysqli_query($conn,$sql);
 
 
