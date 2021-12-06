@@ -20,7 +20,7 @@ $conn = mysqli_connect ($servidor, $usuario, $senhaDb, $dbname);
 <section class="jumbotron text-center">
     <div class="container">
         <h1 class="jumbotron-heading">Trabalhos</h1>
-        <p class="lead text-muted mb-0">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte...</p>
+        <p class="lead text-muted mb-0">Veja todos os trabalhos registrados em nosso site!</p>
     </div>
 </section>
 
@@ -88,23 +88,6 @@ while($row = mysqli_fetch_array($result))
 }
 mysqli_close($conn);
 ?>
-                <div class="col-12">
-                    <nav aria-label="...">
-                        <ul class="pagination">
-                            <li class="page-item">
-                                <a class="page-link" href="#" tabindex="-1">Previous</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active">
-                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
 
             </div>
         </div>
