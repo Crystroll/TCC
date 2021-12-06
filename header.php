@@ -24,13 +24,13 @@
     
             <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
                 <ul class="navbar-nav m-auto">
-                    <li class="nav-item">
+                     <li class="nav-item mx-3">
+                        <a class="nav-link" href="index.php">Página inicial</a>
+                    </li>
+                    <li class="nav-item mx-3">
                         <a class="nav-link" href="trabalhos.php">Todos trabalhos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cart.php">Marcações</a>
-                    </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-3">
                         <a class="nav-link" href="contact.php">Entre em contato</a>
                     </li>
                 </ul>
