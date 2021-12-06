@@ -51,7 +51,7 @@ if((isset ($_SESSION['login']) == true) and (isset ($_SESSION['senha']) == true)
                                 <button class="btn btn-primary"> Acessar </button>
                             </div>
                         </form>  
-                    <a href="#" class="text-center" id="cadastro">Faça seu cadastro</a> 
+                    <a href="registro.php" class="text-center" id="cadastro">Faça seu cadastro</a> 
                 </div>
 
 
