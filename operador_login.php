@@ -1,6 +1,6 @@
 <?php 
 	// session_start inicia a sessão
-	//session_start();
+	session_start();
 	// as variáveis login e senha recebem os dados digitados na página anterior
 
 	$login = $_POST['email'];
