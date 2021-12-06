@@ -49,32 +49,7 @@ if((isset ($_SESSION['login']) == true) and (isset ($_SESSION['senha']) == true)
                     <a href="#" class="text-center" id="cadastro">Faça seu cadastro</a> 
                 </div>
 
-                <div class="cadastro">
-                    <h2 class="text-center"> Faça Seu Cadastro </h2>
 
-                    <form action="operador_registro.php" method="post" name="form-cadastro">
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Nome</label>
-                            <input type="text" class="form-control " id="nome" name="nome" placeholder="Digite o seu nome">
-                        </div>   
-                        <div class="mb-3">
-                            <label for="email" class="form-label">E-mail</label>
-                            <input type="email" class="form-control " id="email" name="email" placeholder="Digite o e-mail">
-                        </div>   
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Telefone</label>
-                            <input type="tel" class="form-control" name="telefone"  id="telefone" placeholder="Digite o e-mail">
-                        </div>   
-                        <div class="mb-3">
-                            <label for="senha" class="form-label">Senha</label>
-                            <input type="password" class="form-control" id="password" name="password" placeholder="Senha">
-                        </div>     
-                        <div class="buttons">
-                            <button class="btn btn-primary"> Cadastrar </button>
-                        </div>
-                    </form>  
-                    <a href="" class="text-center" id="login">Faça seu Login</a> 
-                </div>
 
             </div>
         </div>   
