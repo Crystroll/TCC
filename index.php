@@ -60,7 +60,7 @@ $conn = mysqli_connect ($servidor, $usuario, $senhaDb, $dbname);
     <div class="row">
         <div class="col-sm">
             <div class="card">
-                <div class="card-header bg-primary text-white text-uppercase">
+                <div class="card-header text-white text-uppercase" style="background-color:rgb(241, 181, 42);" >
                     <i class="fa fa-star"></i> Últimos Serviços
                 </div>
                 <div class="card-body">

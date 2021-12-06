@@ -13,8 +13,8 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark " style="background-color: rgb(166, 173, 173);">
-        <div class="container ">
+    <nav class="navbar navbar-expand-md navbar-dark " style="background-color: black;">
+        <div class="container " >
             <a class="navbar-brand" href="index.php">
                 <img src="img/ajuda-ai.png" alt="Logo Ajudai" height="35px">
             </a>
@@ -22,8 +22,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
     
-            <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
-                <ul class="navbar-nav m-auto">
+            <div class="collapse navbar-collapse justify-content-end text-white" id="navbarsExampleDefault">
+                <ul class="navbar-nav m-auto" style="color:rgb(78, 112, 97);" >
                      <li class="nav-item mx-3">
                         <a class="nav-link" href="index.php">Página inicial</a>
                     </li>
@@ -52,14 +52,14 @@
                     {
                     ?>
                 <div>
-                    <a class="btn btn-primary mr-2" href="registro.php" role="button" style="background-color: lightseagreen; border-color: rgb(165, 205, 230);">Cadastre-se</a>
-                    <a class="btn btn-outline-primary mr-2" href="login.php" role="button" style="border-color: rgb(165, 205, 230); color:rgb(165, 205, 230);">Faça login</a>
+                    <a class="btn btn-primary mr-2" href="registro.php" role="button" style="background-color: rgb(78, 112, 97); border-color: rgb(53, 77, 66);">Cadastre-se</a>
+                    <a class="btn btn-outline-primary mr-2" href="login.php" role="button" style="border-color: rgb(53, 77, 66); color:rgb(78, 112, 97);">Faça login</a>
                 </div>
                     <?php
                     }
                     else{
-                        echo "<div class='mr-2'>" . $_SESSION['login'] . "</div>";
-                        echo "<a class='btn btn-primary mr-2' href='desconectar.php' role='button' style='background-color: lightseagreen; border-color: rgb(165, 205, 230);'>Desconectar</a>";
+                        echo "<div class='mr-2' style='color: rgb(78, 112, 97); border:1px; border-radius:.25rem; border-color:rgb(78, 112, 97);' >" . $_SESSION['login'] . "</div>";
+                        echo "<a class='btn btn-primary mr-2' href='desconectar.php' role='button' style='background-color: rgb(78, 112, 97); border-color: rgb(53, 77, 66);'>Desconectar</a>";
                         ?>
                     <?php
                     }  
