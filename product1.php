@@ -7,14 +7,14 @@ date_default_timezone_set('America/Sao_Paulo');
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title></title>
+    <title>Pedro Pinturas</title>
 </head>
 
 <body>
 <section class="jumbotron text-center">
     <div class="container">
-        <h1 class="jumbotron-heading">Serviço</h1>
-        <p class="lead text-muted mb-0">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500...</p>
+        <h1 class="jumbotron-heading">Pintura Comercial e Residencial</h1>
+        <p class="lead text-muted mb-0">Precisando de uma reforma ou retoque na sua residência? Trabalho rápido e completo, total garantia!</p>
     </div>
 </section>
 <div class="container">
@@ -24,7 +24,7 @@ date_default_timezone_set('America/Sao_Paulo');
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Inicio</a></li>
                     <li class="breadcrumb-item"><a href="trabalhos.php">Categoria</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Produto</li>
+                    <li class="breadcrumb-item active" aria-current="page">Pintura</li>
                 </ol>
             </nav>
         </div>
@@ -32,14 +32,35 @@ date_default_timezone_set('America/Sao_Paulo');
 </div>
 <div class="container">
     <div class="row">
-        <!-- Image -->
+    <div id="myCarousel" class="col-12 col-lg-6 carousel slide ml-auto mr-auto"  data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/paint1.jpeg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/paint2.jpeg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/grifo.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Proximo</span>
+  </a>
+</div>
+        <!-- Image 
         <div class="col-12 col-lg-6">
             <div class="card bg-light mb-3">
                 <div class="card-body">
-                        <img class="img-fluid" src="https://dummyimage.com/800x800/362c36/cdced4&text=Sem+imagem+dispon%C3%ADvel"/>
+                        <img class="img-fluid" src=""/>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <!-- Add to cart -->
         <div class="col-12 col-lg-6 add_to_cart_block">
@@ -55,7 +76,7 @@ date_default_timezone_set('America/Sao_Paulo');
                                 <option value="3">Plano 3</option>
                             </select>
                         </div>
-                        <div class="form-group">
+                        <!--<div class="form-group">
                             <label>Quantidade :</label>
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
@@ -70,7 +91,7 @@ date_default_timezone_set('America/Sao_Paulo');
                                     </button>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <a href="cart.html" class="btn btn-success btn-lg btn-block text-uppercase">
                             <i class="fa fa-phone"></i> Entrar em Contato
                         </a>
@@ -83,13 +104,13 @@ date_default_timezone_set('America/Sao_Paulo');
                         </ul>
                     </div>
                     <div class="reviews_product p-3 mb-2 ">
-                        3 reviews
+                        2 reviews
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
-                        (4/5)
+                        (5/5)
                         <a class="pull-right" href="#reviews">Ver Todas as Reviews</a>
                     </div>
                     <!--<div class="datasheet p-3 mb-2 bg-info text-white">
@@ -99,7 +120,7 @@ date_default_timezone_set('America/Sao_Paulo');
             </div>
         </div>
     </div>
-
+<br>
     <div class="row">
         <!-- Description -->
         <div class="col-12">
