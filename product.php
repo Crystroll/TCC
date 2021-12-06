@@ -1,5 +1,8 @@
 <?php
 include "header.php";
+$dateD = date('j');
+$dateM = date('F,');
+$dateY = date('Y');
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -20,7 +23,7 @@ include "header.php";
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Inicio</a></li>
-                    <li class="breadcrumb-item"><a href="category.html">Categoria</a></li>
+                    <li class="breadcrumb-item"><a href="trabalhos.php">Categoria</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Produto</li>
                 </ol>
             </nav>
@@ -69,12 +72,12 @@ include "header.php";
                             </div>
                         </div>
                         <a href="cart.html" class="btn btn-success btn-lg btn-block text-uppercase">
-                            <i class="fa fa-shopping-cart"></i> Adicionar Ao Carrinho
+                            <i class="fa fa-phone"></i> Entrar em Contato
                         </a>
                     </form>
                     <div class="product_rassurance">
                         <ul class="list-inline">
-                            <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>Entrega Rapída</li>
+                            <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>Resposta Rapída</li>
                             <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br/>Pagamento Seguro</li>
                             <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br/>(99) 99999-9999</li>
                         </ul>
@@ -89,9 +92,9 @@ include "header.php";
                         (4/5)
                         <a class="pull-right" href="#reviews">Ver Todas as Reviews</a>
                     </div>
-                    <div class="datasheet p-3 mb-2 bg-info text-white">
+                    <!--<div class="datasheet p-3 mb-2 bg-info text-white">
                         <a href="" class="text-white"><i class="fa fa-file-text"></i> Baixar DataSheet</a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -101,7 +104,7 @@ include "header.php";
         <!-- Description -->
         <div class="col-12">
             <div class="card border-light mb-3">
-                <div class="card-header bg-primary text-white text-uppercase"><i class="fa fa-align-justify"></i> Description</div>
+                <div class="card-header bg-primary text-white text-uppercase"><i class="fa fa-align-justify"></i> Descrição</div>
                 <div class="card-body">
                     <p class="card-text">
                         Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
@@ -120,8 +123,8 @@ include "header.php";
                 <div class="card-body">
                     <div class="review">
                         <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-                        <meta itemprop="datePublished" content="01-01-2016">01 de Janeiro, 2018
-
+                        <meta itemprop="datePublished" content="01-01-2016"> <?php echo "$dateD" ." de " . "$dateM " . "$dateY"; ?>
+                        
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
@@ -135,7 +138,7 @@ include "header.php";
                     </div>
                     <div class="review">
                         <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-                        <meta itemprop="datePublished" content="01-01-2016">01 de Janeiro, 2018
+                        <meta itemprop="datePublished" content="01-01-2016"> <?php echo "$dateD" ." de " . "$dateM " . "$dateY"; ?>
 
                         <span class="fa fa-star" aria-hidden="true"></span>
                         <span class="fa fa-star" aria-hidden="true"></span>
