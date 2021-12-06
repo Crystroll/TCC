@@ -4,7 +4,7 @@
 	// as variáveis login e senha recebem os dados digitados na página anterior
 
 	$login = $_POST['nome'];
-	$password = md5($_POST['senha']);
+	$password = md5($_POST['password']);
     $phone = $_POST['telefone'];
 	$email = $_POST['email'];
 
