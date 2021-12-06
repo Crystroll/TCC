@@ -16,8 +16,7 @@ include "header.php";
     <div class="row">
         <div class="col">
             <div class="card">
-                <div class="card-header bg-info text-white bg-opacity-50"><i class="fa fa-envelope"></i> Insira as informações do trabalho
-                </div>
+                <div class="card-header bg-info text-white bg-opacity-50"><i class="fa fa-envelope"></i> Insira as informações do trabalho</div>
                 <div class="card-body">
                     <form action="operador_adicionar_trabalho.php" method="post" name="form-cadastro" enctype="multipart/form-data">
                         <div class="form-group">
@@ -32,7 +31,7 @@ include "header.php";
                         <div class="form-group">
                         <label for="tipo_trabalho">Tipo de serviço</label>
                             <select class="form-control" id="tipo_trabalho" name="tipo_trabalho">
-                                <option value="1" >Pedreiro</option>
+                                <option value="1">Pedreiro</option>
                                 <option value="2">Encanador</option>
                                 <option value="3">Eletricista</option>
                                 <option value="4">Designer de interiores</option>

@@ -29,7 +29,7 @@ include "header.php";
                         </div>   
                         <div class="my-4">
                             <label for="email" class="form-label">Telefone</label>
-                            <input type="tel" class="form-control" name="telefone"  id="telefone" placeholder="Digite o e-mail">
+                            <input type="tel" class="form-control" name="telefone"  id="telefone" placeholder="Digite o seu Número de Telefone">
                         </div>   
                         <div class="my-4">
                             <label for="senha" class="form-label">Senha</label>

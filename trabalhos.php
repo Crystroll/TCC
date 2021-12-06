@@ -78,7 +78,7 @@ while($row = mysqli_fetch_array($result))
                             <p class="card-text"><?php echo $row['descricao'];?></p>
                             <div class="row">
                                 <div class="col">
-                                    <a href="product.php" class="btn btn-success btn-block float-end" style="vertical-align:">Ver mais</a>
+                                    <a href="product.php" class="btn btn-success btn-block float-end" style="vertical-align">Ver mais</a>
                                 </div>
                             </div>
                         </div>

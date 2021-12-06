@@ -7,14 +7,14 @@ date_default_timezone_set('America/Sao_Paulo');
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Pedro Pinturas</title>
+    <title></title>
 </head>
 
 <body>
 <section class="jumbotron text-center">
     <div class="container">
-        <h1 class="jumbotron-heading">Pedro Pinturas</h1>
-        <p class="lead text-muted mb-0">Eu sei pintar paredes muito bem! Um dos melhores preços da cidade.</p>
+        <h1 class="jumbotron-heading">Serviço</h1>
+        <p class="lead text-muted mb-0">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500...</p>
     </div>
 </section>
 <div class="container">
@@ -33,46 +33,13 @@ date_default_timezone_set('America/Sao_Paulo');
 <div class="container">
     <div class="row">
         <!-- Image -->
-        <!--<div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6">
             <div class="card bg-light mb-3">
                 <div class="card-body">
-                        <img class="img-fluid" src="img/pincel.png"/>
+                        <img class="img-fluid" src="https://dummyimage.com/800x800/362c36/cdced4&text=Sem+imagem+dispon%C3%ADvel"/>
                 </div>
-            </div>
-        </div>-->
-
-        <!--<div class="container">
-    <div class="row">
-        <div class="col">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="./img/slide1.png" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="./img/slide2.png" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="./img/slide3.png" alt="Third slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Proximo</span>
-                </a>
             </div>
         </div>
-    </div>
-</div>-->
 
         <!-- Add to cart -->
         <div class="col-12 col-lg-6 add_to_cart_block">
@@ -88,7 +55,7 @@ date_default_timezone_set('America/Sao_Paulo');
                                 <option value="3">Plano 3</option>
                             </select>
                         </div>
-                       <!-- <div class="form-group">
+                        <div class="form-group">
                             <label>Quantidade :</label>
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
@@ -103,7 +70,7 @@ date_default_timezone_set('America/Sao_Paulo');
                                     </button>
                                 </div>
                             </div>
-                        </div>-->
+                        </div>
                         <a href="cart.html" class="btn btn-success btn-lg btn-block text-uppercase">
                             <i class="fa fa-phone"></i> Entrar em Contato
                         </a>
@@ -163,13 +130,13 @@ date_default_timezone_set('America/Sao_Paulo');
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
-                        Por Diogo V. Graciano
+                        Por Ana Júlia
                         <p class="blockquote">
-                            <p class="mb-0">Muito bom e facilitador!</p>
+                            <p class="mb-0">Serviço rápido e de boa qualidade. Gostei!</p>
                         </p>
                         <hr>
                     </div>
-                   <!-- <div class="review">
+                    <div class="review">
                         <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
                         <meta itemprop="datePublished" content="01-01-2016"> <?php echo strftime('%d de %B, %Y', strtotime('today'));?>
 
@@ -178,12 +145,12 @@ date_default_timezone_set('America/Sao_Paulo');
                         <span class="fa fa-star" aria-hidden="true"></span>
                         <span class="fa fa-star" aria-hidden="true"></span>
                         <span class="fa fa-star" aria-hidden="true"></span>
-                        Por Guilherme Perna
+                        Por João Pereira
                         <p class="blockquote">
-                            <p class="mb-0">!</p>
+                            <p class="mb-0">Os resultados foram incríveis!</p>
                         </p>
                         <hr>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>

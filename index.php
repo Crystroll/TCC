@@ -19,7 +19,7 @@ $conn = mysqli_connect ($servidor, $usuario, $senhaDb, $dbname);
 <section class="jumbotron text-center">
     <div class="container">
         <h1 class="jumbotron-heading">Bem-vindo ao Ajuda Aí!</h1>
-        <p class="lead text-muted mb-0">O Ajudaí! é a ferramenta perfeita para que você encontre a solução para trabalhos do dia-a-dia que precisam de uma mãozinha qualificada!</p>
+        <p class="lead text-muted mb-0">O Ajudaí! é a ferramenta perfeita para que você encontre a solução para trabalhos do dia-a-dia que precisam de uma mão de obra qualificada!</p>
     </div>
 </section>
 <div class="container">
@@ -77,11 +77,11 @@ while($row = mysqli_fetch_array($result))
                     <div id="cartao" class="card" style="height: 400px">
                     <img style="height: 200px;" class="card-img-top" src="<?php echo $row['thumb'] ?>" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="..product.php" title="View Product"><?php echo $row['nome']; ?></a></h4>
+                            <h4 class="card-title"><a href="product1.php" title="View Product"><?php echo $row['nome']; ?></a></h4>
                             <p class="card-text"><?php echo $row['descricao'];?></p>
                             <div class="row">
                                 <div class="col">
-                                    <a href="product.php" class="btn btn-success btn-block float-end" style="vertical align-bottom">Ver mais</a>
+                                    <a href="product2.php" class="btn btn-success btn-block float-end" style="vertical align-bottom">Ver mais</a>
                                 </div>
                             </div>
                         </div>

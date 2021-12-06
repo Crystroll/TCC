@@ -55,7 +55,7 @@ date_default_timezone_set('America/Sao_Paulo');
                                 <option value="3">Plano 3</option>
                             </select>
                         </div>
-                        <div class="form-group">
+                        <!--<div class="form-group">
                             <label>Quantidade :</label>
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
@@ -70,7 +70,7 @@ date_default_timezone_set('America/Sao_Paulo');
                                     </button>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <a href="cart.html" class="btn btn-success btn-lg btn-block text-uppercase">
                             <i class="fa fa-phone"></i> Entrar em Contato
                         </a>
