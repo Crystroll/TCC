@@ -8,6 +8,7 @@ include "header.php";
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -18,7 +19,7 @@ include "header.php";
                 <div class="card-header bg-info text-white bg-opacity-50"><i class="fa fa-envelope"></i> Insira as informaçoes do trabalho
                 </div>
                 <div class="card-body">
-                    <form action="operador_adicionar_trabalho.php" method="post" name="form-cadastro">
+                    <form action="operador_adicionar_trabalho.php" method="post" name="form-cadastro" enctype="multipart/form-data">
                         <div class="form-group">
                             <label for="nome_trabalho">Título do trabalho</label>
                             <input type="text" class="form-control" id="nome_trabalho" name="nome_trabalho" aria-describedby="emailHelp" placeholder="Ex. 'Pedro Pinturas'" required>
@@ -36,8 +37,13 @@ include "header.php";
                                 <option value="4">Designer de interiores</option>
                             </select>
                         </div>
+                        <div class="form-group">
+                            <label for="imagem">Thumbnail</label> <br/>
+                            <input style="display: none;" onchange="previewFile()" id="imagem-thumb" type="file" name="imagem" /> <br />
+                            <img style=" cursor: pointer; height: 200px; width: 200px;" src="../TCC/images_products/default.png" id="previewImg">
+                        </div>
                         <div class="mx-auto">
-                            <button type="submit" class="btn btn-primary text-right">Enviar</button>
+                            <button type="submit" name="submit" class="btn btn-primary text-right">Enviar</button>
                         </div>
                     </form>
                 </div>
@@ -47,7 +53,25 @@ include "header.php";
 </div>
 
 
+<script>
+        function previewFile(input){
+            var file = $("#imagem-thumb").get(0).files[0];
+    
+            if(file){
+                var reader = new FileReader();
+    
+                reader.onload = function(){
+                    $("#previewImg").attr("src", reader.result);
+                }
+    
+                reader.readAsDataURL(file);
+            }
+        }
 
+        $("#previewImg").click(function(){
+            $('#imagem-thumb').trigger('click');
+        })
+    </script>
 
 </body>
 </html>

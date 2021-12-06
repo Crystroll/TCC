@@ -71,13 +71,13 @@ while($row = mysqli_fetch_array($result))
     <!--Cartão do trabalho-->
     <div class="col-12 col-md-6 col-lg-4 py-2">
                     <div id="cartao" class="card" style="height: 400px">
-                        <img class="card-img-top" src="https://dummyimage.com/600x400/55595c/fff" alt="Card image cap">
+                        <img style="height: 200px;" class="card-img-top" src="<?php echo $row['thumb'] ?>" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title"><a href="product.php" title="View Product"><?php echo $row['nome']; ?></a></h4>
                             <p class="card-text"><?php echo $row['descricao'];?></p>
                             <div class="row">
                                 <div class="col">
-                                    <a href="product.php" class="btn btn-success btn-block float-end" style="vertical align-bottom">Ver mais</a>
+                                    <a href="product.php" class="btn btn-success btn-block float-end">Ver mais</a>
                                 </div>
                             </div>
                         </div>
