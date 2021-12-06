@@ -77,7 +77,7 @@ while($row = mysqli_fetch_array($result))
                     <div id="cartao" class="card" style="height: 400px">
                     <img style="height: 200px;" class="card-img-top" src="<?php echo $row['thumb'] ?>" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="product.php" title="View Product"><?php echo $row['nome']; ?></a></h4>
+                            <h4 class="card-title"><a href="..product.php" title="View Product"><?php echo $row['nome']; ?></a></h4>
                             <p class="card-text"><?php echo $row['descricao'];?></p>
                             <div class="row">
                                 <div class="col">

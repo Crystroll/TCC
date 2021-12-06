@@ -1,11 +1,11 @@
 <?php
 include "header.php";
-$dateD = date('j');
-$dateM = date('F,');
-$dateY = date('Y');
+setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+date_default_timezone_set('America/Sao_Paulo');
+
 ?>
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <title>Nome do Produto</title>
 </head>
@@ -123,31 +123,31 @@ $dateY = date('Y');
                 <div class="card-body">
                     <div class="review">
                         <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-                        <meta itemprop="datePublished" content="01-01-2016"> <?php echo "$dateD" ." de " . "$dateM " . "$dateY"; ?>
+                        <meta itemprop="datePublished" content="01-01-2016"> <?php echo strftime('%d de %B, %Y', strtotime('today'));?>
                         
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
-                        Por Paul Smith
+                        Por Ana Júlia
                         <p class="blockquote">
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            <p class="mb-0">Serviço rápido e de boa qualidade. Gostei!</p>
                         </p>
                         <hr>
                     </div>
                     <div class="review">
                         <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-                        <meta itemprop="datePublished" content="01-01-2016"> <?php echo "$dateD" ." de " . "$dateM " . "$dateY"; ?>
+                        <meta itemprop="datePublished" content="01-01-2016"> <?php echo strftime('%d de %B, %Y', strtotime('today'));?>
 
                         <span class="fa fa-star" aria-hidden="true"></span>
                         <span class="fa fa-star" aria-hidden="true"></span>
                         <span class="fa fa-star" aria-hidden="true"></span>
                         <span class="fa fa-star" aria-hidden="true"></span>
                         <span class="fa fa-star" aria-hidden="true"></span>
-                        Por Paul Smith
+                        Por João Pereira
                         <p class="blockquote">
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            <p class="mb-0">Os resultados foram incríveis!</p>
                         </p>
                         <hr>
                     </div>
@@ -158,27 +158,6 @@ $dateY = date('Y');
 </div>
 
 
-
-
-<!-- Modal image -->
-<div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="productModalLabel">Product title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img class="img-fluid" src="https://dummyimage.com/1200x1200/55595c/fff" />
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- JS -->
 <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
