@@ -35,13 +35,13 @@ date_default_timezone_set('America/Sao_Paulo');
     <div id="myCarousel" class="col-12 col-lg-6 carousel slide ml-auto mr-auto"  data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/paint1.jpeg" alt="First slide">
+      <img class="d-block w-100" src="img/paint1.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/paint2.jpeg" alt="Second slide">
+      <img class="d-block w-100" src="img/paint2.jfif" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/grifo.png" alt="Third slide">
+      <img class="d-block w-100" src="img/paint3.jfif" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -71,9 +71,9 @@ date_default_timezone_set('America/Sao_Paulo');
                             <label for="colors">Planos</label>
                             <select class="custom-select" id="colors">
                                 <option selected>Selecionar</option>
-                                <option value="1">Plano 1</option>
-                                <option value="2">Plano 2</option>
-                                <option value="3">Plano 3</option>
+                                <option value="1">Plano Residencial</option>
+                                <option value="2">Plano Comercial</option>
+                                <option value="3">Plano Industrial</option>
                             </select>
                         </div>
                         <!--<div class="form-group">
@@ -128,10 +128,10 @@ date_default_timezone_set('America/Sao_Paulo');
                 <div class="card-header bg-primary text-white text-uppercase"><i class="fa fa-align-justify"></i> Descrição</div>
                 <div class="card-body">
                     <p class="card-text">
-                        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+                        Oferecendo serviços de pintura geral para residências ( Casas, Apartamentos e Kitnets ), também faço serviços para empresas e comércio no geral.
                     </p>
                     <p class="card-text">
-                        Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32.
+                        Trabalhamos com pacotes de planos, com uma grande variedade de serviços para suprir grandes demandas em serviços de pequenas ou grandes escalas.
                     </p>
                 </div>
             </div>
